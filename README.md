@@ -18,8 +18,8 @@ You'll need:
 - [GDAL](http://gdal.org) - the core FileIO engine for much of FOSS GIS
 - [Fiona](http://pypi.python.org/pypi/fiona) - super minimial fileIO using GDAL
 - [Shapely](http://toblerity.org/shapely/index.html) - planar geometry in GIS
-- [Matplotlib](http://matplotlib.org) - 
-- [Descartes](http://pypi.python.org/pypi/descartes)
+- [Matplotlib](http://matplotlib.org) - plotting and visualization in Python
+- [Descartes](http://pypi.python.org/pypi/descartes) - helper that links geographic dictionaries to matplotlib
 
 Most of these are just python packages. Don't be worried. The only one that
 might give you trouble is GDAL, but since it's really the beating heart of the
