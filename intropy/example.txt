@@ -1,0 +1,5 @@
+hello!
+I am in a text file
+plaintext writing
+254
+this is the end of my file
