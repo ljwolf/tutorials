@@ -36,3 +36,21 @@ any intervention needed.
 ##Data
 
 The data is [here](http://public.asu.edu/~lwolf2/classes/polgeo/data.zip).
+
+We'll be mapping today from shapefiles, but there are a variety of formats that
+QGIS can handle. 
+
+##Walkthrough
+
+First, let's map the US per capita income data, `us48`. In the `data` folder,
+you'll see four files. Three of them have names like `us48`, and the fourth is
+called `usjoin`. We'll be joining `usjoin` to the `us48` table in QGIS using
+state names as keys, then making a map of the per capita income of states in
+some year. 
+
+Then, we'll map different geometric statistics about California congressional
+districts. To do this, we'll calculate the area-perimeter ratio used in
+congressional districting analysis, and then we'll map it, making a cutout for
+the Bay Area and LA.
+
+Then, if there's time, we'll cover personal installation. 
